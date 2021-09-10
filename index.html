@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>EMSwift</title>
+  </head>
+  <body>
+    <nav class="uk-navbar-container uk-margin-bottom uk-dark" uk-navbar>
+      <a
+        href="index.html"
+        class="uk-margin-left uk-navbar-item uk-logo uk-navbar-left"
+        >EMSwift</a
+      >
+      <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+          <li class="uk-active uk-text-center">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="uk-parent uk-text-center">
+            <a href="newpatient.html">New Patients</a>
+          </li>
+          <li class="uk-text-center">
+            <a href="existingpatient.html">Existing Patients</a>
+          </li>
+          <li><a href="maps.html">Maps</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="uk-container">
+      <h1 class="uk-heading-line uk-text-center uk-text-bold uk-text-uppercase">
+        <span>New Patients</span>
+      </h1>
+
+      <div class="uk-card uk-card-primary uk-child-width-1-2" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <span
+            class="uk-margin-left"
+            uk-icon="icon: plus-circle; ratio: 4"
+          ></span>
+          <canvas width="20" height=""></canvas>
+        </div>
+        <div>
+          <div
+            class="
+              uk-card-body
+              uk-text-right
+              uk-text-bold
+              uk-text-uppercase
+              uk-text-nowrap
+            "
+          >
+            <p>New Patient Form</p>
+          </div>
+          <a
+            class="uk-button uk-button-danger uk-align-right"
+            href="newpatient.html"
+            >New Patient</a
+          >
+        </div>
+      </div>
+
+      <h1 class="uk-heading-line uk-text-center uk-text-bold uk-text-uppercase">
+        <span>Past Patients</span>
+      </h1>
+
+      <div class="uk-card uk-card-primary uk-child-width-1-2" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <span class="uk-margin-left" uk-icon="icon: check; ratio: 4"></span>
+          <canvas width="20" height=""></canvas>
+        </div>
+        <div>
+          <div
+            class="
+              uk-card-body
+              uk-text-right
+              uk-text-bold
+              uk-text-uppercase
+              uk-text-nowrap
+            "
+          >
+            View Past Patients
+          </div>
+          <a
+            class="uk-button uk-button-danger uk-align-right"
+            href="existingpatient.html"
+            >Past Patient</a
+          >
+        </div>
+      </div>
+
+      <h1 class="uk-heading-line uk-text-center uk-text-bold uk-text-uppercase">
+        <span>Maps</span>
+      </h1>
+
+      <div class="uk-card uk-card-primary uk-child-width-1-2" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+          <span
+            class="uk-margin-left"
+            uk-icon="icon: location; ratio: 4"
+          ></span>
+          <canvas width="20" height=""></canvas>
+        </div>
+        <div>
+          <div
+            class="
+              uk-card-body
+              uk-text-right
+              uk-text-bold
+              uk-text-uppercase
+              uk-text-nowrap
+            "
+          >
+            View The Map
+          </div>
+          <a class="uk-button uk-button-danger uk-align-right" href="maps.html"
+            >Maps</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.3/dist/js/uikit-icons.min.js"></script>
+  <script src="/assets/js/script.js"></script>
+</html>
